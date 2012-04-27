@@ -1,0 +1,21 @@
+{
+  "name": "Jamendo OGG Downloader",
+  "version": "1.1",
+  "description": "Downloads selected albums from Jamendo in OGG format.",
+  "background_page": "background.html",
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "Download as OGG"
+  },
+  "icons": {
+    "32": "icon.png",
+	"128": "icon_128.png",
+	"64": "icon_64.png",
+	"48": "icon_48.png",
+    "16": "icon_16.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self'"
+}
